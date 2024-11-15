@@ -1,0 +1,103 @@
+
+
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Header */
+
+.header {
+    background-color: #333;
+    color: white;
+  
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Productos */
+#productos .productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+/* Reseñas */
+#reseñas .opiniones-container {
+    display: flex;
+    flex-wrap: wrap;
+  
+    gap: 10px;
+    padding: 20px;
+}
+
+/*Contacto */
+.contacto {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #9D1915;
+    color: white;
+   
+}
+
+/* Responsividad */
+/*mobile*/
+@media (max-width: 600px) {
+  .float {
+    display: none;
+  } 
+}
+/*Tablet*/
+@media (min-width: 768px) {
+    .float {
+        position:fixed;
+		bottom: 30px;
+		right: 100px;
+    } 
+  }
+/*desktop 1440*/  
+@media (min-width:1440px) {
+	.float{
+		position:fixed;
+		bottom: 60px;
+		right: 120px;
+		}
+    } 
